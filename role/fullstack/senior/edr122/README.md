@@ -13,3 +13,10 @@ _Ruta de los scripts de base datos._
 edr122/sql/db_structure.sql
 edr122/sql/db_data.sql
 ```
+
+### Proyecto backend (API)
+_Contiene todos los endpoints de la aplicación._
+
+```
+edr122/airportart-api
+```
