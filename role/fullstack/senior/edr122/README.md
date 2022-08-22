@@ -5,7 +5,7 @@ _Estas instrucciones te permitirán desplegar y probar la aplicación._
 ### Base de datos usada
 _Diagrama de base datos._
 
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/edr122/azulo-eval/role/fullstack/senior/edr122/sql/Diagrama_BD_Airportart.JPG)
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/edr122/azulo-eval/role/fullstack/senior/role/fullstack/senior/edr122/sql/Diagrama_BD_Airportart.JPG)
 
 _Ruta de los scripts de base datos._
 
