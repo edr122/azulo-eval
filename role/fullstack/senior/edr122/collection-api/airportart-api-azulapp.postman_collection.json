@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "7e92c507-cfd0-46fd-89e3-4974a40f3921",
+		"name": "airportart-api-azulapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all Airports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/airports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"airports"
+					]
+				},
+				"description": "Get all Airports"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Airport",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"AirportOperatorId\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/airports/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"airports",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Priorities by List",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"Id\": 1,\r\n        \"PriorityOrder\": 11\r\n    },\r\n    {\r\n        \"Id\": 2,\r\n        \"PriorityOrder\": 23\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/airports/priorities/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"airports",
+						"priorities",
+						"all"
+					]
+				},
+				"description": "Update Priorities by List"
+			},
+			"response": []
+		}
+	]
+}

@@ -4,7 +4,8 @@ import {createPool} from 'mysql2/promise';
 export async function connect(){
     const connection = await createPool({
         host:'localhost',
-        user:'root',
+        port: 33060,
+        user:'eder',
         password:'eder',
         database:'azulapp',
         connectionLimit:10
